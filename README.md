@@ -2,7 +2,7 @@
 This is a Vue.js boilerplate for the template [Boxer - Software Landing Page](https://themewagon.com/themes/software-landing-page-free-html5-template/) created by [ThemeWagon](https://themewagon.com/).
 
 # Assets
-The assets used are directly from the template itself and is not local. PRs for this are highly welcome.
+The assets used are directly from the template itself and is not local. PRs for this are highly welcome. When hosting this from `gh-pages` make sure to unblock the styles since they are just linked and are blocked. Another thing to note is to manually add the gh-pages url `https://username.github.io/repo/` to the src in the `build/index.html`. I'm still figuring out how to automate this.
 
 # Vue.js starter template
 
