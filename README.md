@@ -2,7 +2,7 @@
 This is a Vue.js boilerplate for the template [Boxer - Software Landing Page](https://themewagon.com/themes/software-landing-page-free-html5-template/) created by [ThemeWagon](https://themewagon.com/).
 
 # Assets
-The assets used are directly from the template itself and is not local. PRs for this iss highly welcome.
+The assets used are directly from the template itself and is not local. PRs for this are highly welcome.
 
 # Vue.js starter template
 
