@@ -6,6 +6,16 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var isProduction = !!((argv.env && argv.env.production) || argv.p);
 var sourceMapQueryStr = !isProduction ? '+sourceMap' : '-sourceMap';
 
+var pkgPath = path.resolve(__dirname, '../package.json');
+
+// We use "homepage" field to infer "public path" at which the app is served.
+// Webpack needs to know it to put the right <script> hrefs into HTML even in
+// single-page apps that may serve index.html for nested URLs like /todos/42.
+// We can't use a relative path in HTML because we don't want to load something
+// like /todos/42/static/js/bundle.7289d.js. We have to know the root.
+// Remove any slash
+var homepagePath = require(pkgPath).homepage.replace(/\/$/, '');
+
 module.exports = {
   entry: {
     app: [path.resolve(__dirname, '../src/main.js')]
@@ -14,7 +24,7 @@ module.exports = {
     chunkFilename: '[id].chunk.js',
     filename: 'js/[name].[hash].js',
     path: path.resolve(__dirname, '../build'),
-    publicPath: '/',
+    publicPath: homepagePath,
     sourceMapFilename: '[name].[hash].js.map'
   },
   resolve: {
