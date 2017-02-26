@@ -13,8 +13,7 @@ var pkgPath = path.resolve(__dirname, '../package.json');
 // single-page apps that may serve index.html for nested URLs like /todos/42.
 // We can't use a relative path in HTML because we don't want to load something
 // like /todos/42/static/js/bundle.7289d.js. We have to know the root.
-// Remove any slash
-var homepagePath = require(pkgPath).homepage.replace(/\/$/, '');
+var homepagePath = require(pkgPath).homepage;
 
 module.exports = {
   entry: {

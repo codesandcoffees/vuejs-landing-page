@@ -176,7 +176,7 @@ img
 #home
     {
     /* I dont know how to work around this in webpack */
-    background: url(http://www.templatemo.com/templates/templatemo_446_boxer/images/home-bg.jpg) no-repeat;
+    background: url('../src/assets/images/home-bg.jpg') no-repeat;
     background-size: cover;
     color: #fff;
     margin-top: 70px;
@@ -356,7 +356,7 @@ img
 #contact
     {
         /* I dont know how to work around this in webpack */
-        background: url(http://www.templatemo.com/templates/templatemo_446_boxer/images/contact-bg.jpg) no-repeat;
+        background: url('../src/assets/images/contact-bg.jpg') no-repeat;
         background-size: cover;
         color: #fff;
     }
