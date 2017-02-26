@@ -24,7 +24,7 @@ module.exports = {
     chunkFilename: '[id].chunk.js',
     filename: 'js/[name].[hash].js',
     path: path.resolve(__dirname, '../build'),
-    publicPath: homepagePath,
+    publicPath: (isProduction) ? homepagePath : '/', // if dev. just serve from local
     sourceMapFilename: '[name].[hash].js.map'
   },
   resolve: {
