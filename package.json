@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:villeristi/vue.js-starter-template.git"
+    "url": "git@github.com:codesandcoffee/vuejs-landing-page.git"
   },
   "config": {
     "port": 3000
@@ -84,5 +84,5 @@
     "webpack-notifier": "^1.5.0",
     "webpack-validator": "^2.2.9"
   },
-  "homepage": "https://iamdevlinph.github.io/vuejs-landing-page/"
+  "homepage": "https://codesandcoffee.github.io/vuejs-landing-page/"
 }
