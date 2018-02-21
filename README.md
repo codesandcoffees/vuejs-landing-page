@@ -1,6 +1,12 @@
 # Boxer - Software Landing Page (Vue.js)
 This is a Vue.js boilerplate for the template [Boxer - Software Landing Page](https://themewagon.com/themes/software-landing-page-free-html5-template/) created by [ThemeWagon](https://themewagon.com/).
 
+![open issues](https://img.shields.io/github/issues/codesandcoffees/vuejs-landing-page.svg)
+![open prs](https://img.shields.io/github/issues-pr/codesandcoffees/vuejs-landing-page.svg)
+![code size](https://img.shields.io/github/languages/code-size/codesandcoffees/vuejs-landing-page.svg)
+![repo size](https://img.shields.io/github/repo-size/codesandcoffees/vuejs-landing-page.svg)
+![contributors](https://img.shields.io/github/contributors/codesandcoffees/vuejs-landing-page.svg)
+
 # Assets
 The assets used are directly from the template itself and is not local. PRs for this are highly welcome. When hosting this from `gh-pages` make sure to click the unblock pop-up to allow external assets to be loaded.
 
