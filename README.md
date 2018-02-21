@@ -4,7 +4,6 @@ This is a Vue.js boilerplate for the template [Boxer - Software Landing Page](ht
 ![open issues](https://img.shields.io/github/issues/codesandcoffees/vuejs-landing-page.svg)
 ![open prs](https://img.shields.io/github/issues-pr/codesandcoffees/vuejs-landing-page.svg)
 ![code size](https://img.shields.io/github/languages/code-size/codesandcoffees/vuejs-landing-page.svg)
-![repo size](https://img.shields.io/github/repo-size/codesandcoffees/vuejs-landing-page.svg)
 ![contributors](https://img.shields.io/github/contributors/codesandcoffees/vuejs-landing-page.svg)
 
 # Assets
