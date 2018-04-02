@@ -49,10 +49,7 @@ var commonPlugins = [
       quality: '65-90',
       speed: 4,
     },
-    svgo: {
-      removeUnknownsAndDefaults: false,
-      cleanupIDs: false,
-    },
+    svgo: null,
     jpegtran: null,
     plugins: [imageminMozjpeg({
       quality: 75,
